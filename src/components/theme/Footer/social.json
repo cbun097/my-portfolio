@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "name": "Telegram",
+    "link": "https://t.me/cbun097",
+    "icon": "/icons/telegram.svg"
+  },
+  {
+    "id": 1,
+    "name": "Github",
+    "link": "https://github.com/cbun097",
+    "icon": "/icons/github.svg"
+  },
+  {
+    "id": 3,
+    "name": "Twitter",
+    "link": "https://twitter.com/cbun097",
+    "icon": "/icons/twitter.svg"
+  },
+  {
+    "id": 4,
+    "name": "YouTube",
+    "link": "https://www.youtube.com/theClairebmusic",
+    "icon": "/icons/youtube.svg"
+  },
+  {
+    "id": 5,
+    "name": "Linkedin",
+    "link": "https://www.linkedin.com/in/claire-bun-3678ba132/",
+    "icon": "/icons/linkedin.svg"
+  },
+  {
+    "id": 6,
+    "name": "Instagram",
+    "link": "https://www.instagram.com/cbun097/",
+    "icon": "/icons/instagram.svg"
+  }
+]
