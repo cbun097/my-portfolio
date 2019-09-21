@@ -49,6 +49,13 @@ module.exports = {
 				head: true,
 			},
 		},
+		// {
+		// 	 resolve: `gatsby-source-medium`,
+		// 	 options: {
+		// 		 username: `username/publication`,
+		// 		 limit: 200,
+		// 	 }
+		// },
 		{
 			resolve: 'gatsby-plugin-favicon',
 			options: {
