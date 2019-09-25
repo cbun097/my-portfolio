@@ -12,7 +12,7 @@ module.exports = {
 		instagram: 'https://instagram.com/cbun097',
 		youtube: 'https://www.youtube.com/theclairebmusic',
 	},
-	googleAnalyticsID: 'UA-88875900-4',
+	googleAnalyticsID: 'UA-93456305-6',
 	themeColor: '#6b63ff',
 	backgroundColor: '#6b63ff',
 	social: {
