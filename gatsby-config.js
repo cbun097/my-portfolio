@@ -6,7 +6,6 @@ require('dotenv').config({
 })
 
 module.exports = {
-	pathPrefix: "/my-portfolio",
 	siteMetadata: {
 		title: config.defaultTitle,
 		description: config.defaultDescription,
@@ -15,13 +14,6 @@ module.exports = {
 	plugins: [
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-styled-components',
-		/* {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'assets',
-        path: '${__dirname}/src/assets',
-      },
-    }, */
 		'gatsby-transformer-sharp',
 		'gatsby-plugin-sharp',
 		{
@@ -36,6 +28,13 @@ module.exports = {
 				fetchOptions: {},
 			},
 		},
+		// {
+		// 	resolve: 'gatsby-source-filesystem',
+		// 	options: {
+		// 	  name: 'pages',
+		// 	  path: '${__dirname}/src/pages',
+		// 	},
+		// }, 
 		{
 			resolve: 'gatsby-plugin-nprogress',
 			options: {

@@ -12,7 +12,7 @@ module.exports = {
 		instagram: 'https://instagram.com/cbun097',
 		youtube: 'https://www.youtube.com/theclairebmusic',
 	},
-	googleAnalyticsID: 'UA-88875900-4',
+	googleAnalyticsID: 'UA-93456305-6',
 	themeColor: '#6b63ff',
 	backgroundColor: '#6b63ff',
 	social: {
@@ -30,6 +30,5 @@ module.exports = {
 		phone: 'phone number',
 	},
 	foundingDate: '2018',
-	recaptcha_key: '6Lces7kUAAAAAJxM6ZacowidCWgVgLSuwyDRR48L',
-	recaptachat_key_secret: '6Lces7kUAAAAAPmCXG4bFvDWpNx4-RwHkGKSOR7X'
+	recaptcha_key: '6Lf0ZboUAAAAAG5HTH4m9sHHmKfP2h8alXxr13Vq'
 }
