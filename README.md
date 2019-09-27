@@ -1,6 +1,8 @@
-# Portfolio for developers
+# My Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/57c04515-1d1b-46e8-b531-213fabca9cc4/deploy-status)](https://app.netlify.com/sites/gatsby-portfolio-dev/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/60975f4b-abeb-4d92-9f6a-3efde408f63d/deploy-status)](https://app.netlify.com/sites/cbun097/deploys)
+
+This is my portfolio. Most of the credits for the template goes to [Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio). I highly recommande to check his profile for front-end projects.
 
 ## Theme
 [Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio)
@@ -13,6 +15,7 @@
 - Easy to customize
 - Nice project structure
 - Amazing illustrations by [Undraw.co](https://undraw.co)
+- Amazing icons by [Font Awesome](https://fontawesome.com/)
 - Tablet & mobile friendly
 - Continuous deployment with [Netlify](https://netlify.com)
 - A contact form protected by Google Recaptcha
@@ -103,8 +106,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [Ryan Lee](https://github.com/drdgvhbh) https://github.com/smakosh/gatsby-portfolio-dev/pull/6
 - [Myself](https://smakosh.com)
 
-## Support
-
-If you love this Gatsby template and want to support me, you can do so through my Patreon
-
-[![Support me on Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/smakosh)
