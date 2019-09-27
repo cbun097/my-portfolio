@@ -27,12 +27,15 @@ export const Flex = styled.div`
 export const Links = styled.div`
 	display: flex;
 	align-items: center;
-
+	span {
+		margin: 0.1rem;
+	}
 	a {
 		margin: 0 0.5rem;
 
 		img {
-			margin: 0;
+  			margin-right: 0.2rem;
+  			margin-bottom: 0;
 		}
 
 		&:first-child,

@@ -14,6 +14,11 @@ export const Button = styled.button`
 	user-select: none;
 	color: #fff;
 	background: #0074d9;
+	margin: 5px;
+
+	a {
+		color: #fff;
+	}
 
 	&:focus {
 		outline: none;
@@ -27,5 +32,11 @@ export const Button = styled.button`
 		secondary &&
 		`
 		background: #001F3F;
+	`}
+
+	${({ purple }) =>
+		purple &&
+		`
+		background: #562dcf;
 	`}
 `

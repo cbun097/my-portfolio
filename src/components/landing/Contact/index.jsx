@@ -8,6 +8,7 @@ export const Contact = () => (
 	<Wrapper as={Container} id="contact">
 		<Details>
 			<h2>Contact me</h2>
+			<h4>You can contact directly via my <a href="mailto: cbun.dev@gmail.ca">email</a>.</h4>
 			<ContactForm />
 		</Details>
 		<Thumbnail>
