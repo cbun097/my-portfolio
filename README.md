@@ -2,6 +2,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/60975f4b-abeb-4d92-9f6a-3efde408f63d/deploy-status)](https://app.netlify.com/sites/cbun097/deploys)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4f3f26b659324c65a73301ae75d1e5fc)](https://www.codacy.com/manual/cbun097/my-portfolio?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cbun097/my-portfolio&amp;utm_campaign=Badge_Grade)
+
 This is my portfolio. Most of the credits for the template goes to [Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio). I highly recommande to check his profile for front-end projects.
 
 ## Theme
