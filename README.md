@@ -16,9 +16,7 @@ This is my portfolio. Most of the credits for the template goes to [Gatsby-theme
 - Easy to customize
 - Nice project structure
 - Amazing illustrations by [Undraw.co](https://undraw.co)
-  <<<<<<< HEAD
-- # Amazing icons by [Font Awesome](https://fontawesome.com/)
-  > > > > > > > upstream/master
+- Amazing icons by [Font Awesome](https://fontawesome.com/)
 - Tablet & mobile friendly
 - Continuous deployment with [Netlify](https://netlify.com)
 - A contact form protected by Google Recaptcha
@@ -37,14 +35,6 @@ Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfo
 ├── data
 │   └── config              # SEO related tags
 ├── src
-<<<<<<< HEAD
-│   ├── components          # Components
-│   │   │── common          # Common components
-│   │   │── landing         # Components used on the landing page
-│   │   └── theme           # Header & Footer
-│   └── pages               # Pages
-└── static                  # Icons, favicon & SVG illustrations
-=======
 │   └── assets              # Assets
 │   │   │── icons             # icons
 │   │   │── illustrations     # illustrations from (undraw.co)
@@ -55,7 +45,6 @@ Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfo
 │   │   └── theme             # Header & Footer
 │   └── pages               # Pages
 └── static                  # favicon & Netlify redirects
->>>>>>> upstream/master
 ```
 
 ## Prerequisites
@@ -120,18 +109,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 - [Ajay NS](https://github.com/ajayns) https://github.com/smakosh/gatsby-portfolio-dev/pull/3
 - [Ryan Lee](https://github.com/drdgvhbh) https://github.com/smakosh/gatsby-portfolio-dev/pull/6
-  <<<<<<< HEAD
-- [Myself](https://smakosh.com)
-
-=======
-
-- [David](https://github.com/davidavz) https://github.com/smakosh/gatsby-portfolio-dev/pull/8
-- [Myself](https://smakosh.com)
-
-## Support
-
-If you love this Gatsby template and want to support me, you can do so through my Patreon
-
-[![Support me on Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/smakosh)
-
-> > > > > > > upstream/master
