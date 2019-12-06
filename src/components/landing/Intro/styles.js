@@ -23,6 +23,10 @@ export const IntroWrapper = styled.div`
 export const Details = styled.div`
   flex: 1;
 
+  a {
+    color: white;
+  }
+
   @media (max-width: 960px) {
     width: 100%;
     margin-bottom: 2rem;

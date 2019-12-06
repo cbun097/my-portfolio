@@ -24,14 +24,15 @@ export const Button = styled.button`
   }
 
   ${({ secondary }) =>
-    secondary &&
+		secondary &&
     `
-		background: #001F3F;
+		background: #001F3F;F
 	`}
 
 	${({ purple }) =>
-	purple &&
+		purple &&
 	`
-		background: #562dcf;
+    background: #562dcf;
+    margin:0.5em;
 	`}
 `;

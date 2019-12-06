@@ -10,7 +10,7 @@ export const Input = styled.input`
   transition: 0.3s;
 
   ${({ error }) =>
-    error &&
+		error &&
     `
 		border-color: #ff4136;
 	`}
