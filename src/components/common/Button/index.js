@@ -1,42 +1,38 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Button = styled.button`
-	cursor: pointer;
-	border-radius: 3px;
-	padding: 0.7rem 2.5rem;
-	border: none;
-	-webkit-appearance: none;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	color: #fff;
-	background: #0074d9;
-	margin: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 0.7rem 2.5rem;
+  border: none;
+  -webkit-appearance: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff;
+  background: #0074d9;
 
-	a {
-		color: #fff;
-	}
+  &:focus {
+    outline: none;
+  }
 
-	&:focus {
-		outline: none;
-	}
+  &:disabled {
+    background: gray;
+  }
 
-	&:disabled {
-		background: gray;
-	}
-
-	${({ secondary }) =>
+  ${({ secondary }) =>
 		secondary &&
-		`
-		background: #001F3F;
+    `
+		background: #001F3F;F
 	`}
 
 	${({ purple }) =>
 		purple &&
-		`
-		background: #562dcf;
+	`
+    background: #562dcf;
+    margin:0.5em;
 	`}
-`
+`;

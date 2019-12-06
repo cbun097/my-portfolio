@@ -1,6 +1,6 @@
-import React from 'react'
-import { Layout, SEO } from 'Common'
-import { Intro, Skills, Contact, Projects, Blog } from 'Components/landing'
+import React from 'react';
+import { Layout, SEO } from 'components/common';
+import { Intro, Skills, Contact, Projects, Blog } from 'components/landing';
 
 export default () => (
 	<Layout>
@@ -8,7 +8,7 @@ export default () => (
 		<Intro />
 		<Projects />
 		<Skills />
-		<Blog/>
+		<Blog />
 		<Contact />
 	</Layout>
-)
+);

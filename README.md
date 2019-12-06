@@ -1,10 +1,11 @@
 # My Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/60975f4b-abeb-4d92-9f6a-3efde408f63d/deploy-status)](https://app.netlify.com/sites/cbun097/deploys)[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4f3f26b659324c65a73301ae75d1e5fc)](https://www.codacy.com/manual/cbun097/my-portfolio?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cbun097/my-portfolio&amp;utm_campaign=Badge_Grade)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/60975f4b-abeb-4d92-9f6a-3efde408f63d/deploy-status)](https://app.netlify.com/sites/cbun097/deploys)[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4f3f26b659324c65a73301ae75d1e5fc)](https://www.codacy.com/manual/cbun097/my-portfolio?utm_source=github.com&utm_medium=referral&utm_content=cbun097/my-portfolio&utm_campaign=Badge_Grade)
 
 This is my portfolio. Most of the credits for the template goes to [Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio). I highly recommande to check his profile for front-end projects.
 
 ## Theme
+
 [Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio)
 
 ## Features
@@ -34,12 +35,16 @@ Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfo
 ├── data
 │   └── config              # SEO related tags
 ├── src
+│   └── assets              # Assets
+│   │   │── icons             # icons
+│   │   │── illustrations     # illustrations from (undraw.co)
+│   │   └── thumbnail         # cover of your website when it's shared to social media
 │   ├── components          # Components
-│   │   │── common          # Common components
-│   │   │── landing         # Components used on the landing page
-│   │   └── theme           # Header & Footer
+│   │   │── common            # Common components
+│   │   │── landing           # Components used on the landing page
+│   │   └── theme             # Header & Footer
 │   └── pages               # Pages
-└── static                  # Icons, favicon & SVG illustrations
+└── static                  # favicon & Netlify redirects
 ```
 
 ## Prerequisites
@@ -104,5 +109,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 - [Ajay NS](https://github.com/ajayns) https://github.com/smakosh/gatsby-portfolio-dev/pull/3
 - [Ryan Lee](https://github.com/drdgvhbh) https://github.com/smakosh/gatsby-portfolio-dev/pull/6
-- [Myself](https://smakosh.com)
-

@@ -1,9 +1,8 @@
-const path = require('path')
-const config = require('./data/config')
+const config = require('./src/data/config');
 
 require('dotenv').config({
 	path: `.env.${process.env.NODE_ENV}`,
-})
+});
 
 module.exports = {
 	siteMetadata: {
@@ -28,13 +27,6 @@ module.exports = {
 				fetchOptions: {},
 			},
 		},
-		// {
-		// 	resolve: 'gatsby-source-filesystem',
-		// 	options: {
-		// 	  name: 'pages',
-		// 	  path: '${__dirname}/src/pages',
-		// 	},
-		// }, 
 		{
 			resolve: 'gatsby-plugin-nprogress',
 			options: {
@@ -49,13 +41,6 @@ module.exports = {
 				head: true,
 			},
 		},
-		// {
-		// 	 resolve: `gatsby-source-medium`,
-		// 	 options: {
-		// 		 username: `username/publication`,
-		// 		 limit: 200,
-		// 	 }
-		// },
 		{
 			resolve: 'gatsby-plugin-favicon',
 			options: {
@@ -87,17 +72,5 @@ module.exports = {
 			},
 		},
 		'gatsby-plugin-offline',
-		{
-			resolve: `gatsby-plugin-alias-imports`,
-			options: {
-				alias: {
-					Components: path.resolve(__dirname, 'src/components'),
-					Common: path.resolve(__dirname, 'src/components/common'),
-					Static: path.resolve(__dirname, 'static/'),
-					Theme: path.resolve(__dirname, 'src/components/theme'),
-					Data: path.resolve(__dirname, 'data/config'),
-				},
-			},
-		},
 	],
-}
+};
