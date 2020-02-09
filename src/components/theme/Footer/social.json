@@ -34,5 +34,11 @@
     "name": "Instagram",
     "link": "https://www.instagram.com/cbun097/",
     "icon": "/icons/instagram.svg"
+  },
+  {
+    "id": 7,
+    "name": "Dev.to",
+    "link": "https://dev.to/cbun097",
+    "icon": "/icons/dev-brands.svg"
   }
 ]
