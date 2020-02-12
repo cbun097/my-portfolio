@@ -1,0 +1,20 @@
+{
+  "Intro": {
+    "Greeting": "**FR** Hi There!",
+    "WhoAmI": "**FR** I’m Claire and I’m a front-end developer & student!",
+    "ResumeBtn": "**FR** View my resume",
+    "HireMeBtn": "**FR** Hire me"
+  },
+  "Skills": {
+    "IntroductionMgs": "**FR** My name is Claire Bun. I am a DEC (Quebec's diploma of college studies) in Information Technology. Currently, I am an undergraduate in Computer Science. I have mostly experience in Angular and ReactJs.",
+    "HireBtn": "**FR** Hire me"
+  },
+  "Blog": {
+    "LatestPost": "**FR** Latest post",
+    "ComingSoonMgs": "**FR** Coming soon"
+  },
+  "Contact": {
+    "ContactHeader": "**FR** Contact me",
+    "EmailText": "**FR** You can contact directly via my <a href='mailto: cbun.dev@gmail.ca'>email</a>."
+  }
+}
