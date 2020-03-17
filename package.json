@@ -22,6 +22,7 @@
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-source-graphql": "^2.1.33",
     "gatsby-transformer-sharp": "2.3.14",
+    "moment": "^2.24.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
@@ -34,7 +35,9 @@
   "keywords": [
     "gatsby",
     "portfolio",
-    "developer"
+    "developer",
+    "react",
+    "woman developer"
   ],
   "license": "MIT",
   "scripts": {
@@ -42,6 +45,8 @@
     "start": "gatsby develop -o",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
+    "format:fix": "prettier --write \"**/*.+(js|jsx|json|css|md)\" --fix",
     "reset": "rm -rf .cache/ public/",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
@@ -62,7 +67,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:smakosh/gatsby-portfolio-dev.git"
+    "url": "https://github.com/cbun097/my-portfolio"
   },
   "bugs": {
     "url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
