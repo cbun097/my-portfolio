@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<div
+  className="sc-fznZeY cgAvji"
+>
+  <div
+    className="sc-fzokOt AUdI"
+    onClick={[Function]}
+  />
+  <div
+    className="sc-AxhUy eJhSOM sc-fzpans iRvtGb"
+  >
+    <a
+      aria-current="page"
+      className=""
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      style={Object {}}
+    >
+      Claire Bun
+    </a>
+    <div
+      className="sc-fzoLsD hLUwpL"
+    >
+      <a
+        href="#about"
+        onClick={[Function]}
+      >
+        About
+      </a>
+      <a
+        href="#projects"
+        onClick={[Function]}
+      >
+        Projects
+      </a>
+      <a
+        href="#blog"
+        onClick={[Function]}
+      >
+        Blog
+      </a>
+      <a
+        href="#contact"
+        onClick={[Function]}
+      >
+        Contact
+      </a>
+    </div>
+  </div>
+  <div
+    className="sc-fzplWN ggXYHH"
+    onClick={[Function]}
+  >
+    <div
+      className="sc-fznyAO cVabKd"
+    />
+    <div
+      className="sc-fznyAO cVabKd"
+    />
+    <div
+      className="sc-fznyAO cVabKd"
+    />
+  </div>
+  <div
+    className="sc-fznKkj dJlsUJ"
+    onClick={[Function]}
+  >
+    <div
+      className="sc-fzoLsD kYqwTH"
+    >
+      <a
+        href="#about"
+        onClick={[Function]}
+      >
+        About
+      </a>
+      <a
+        href="#projects"
+        onClick={[Function]}
+      >
+        Projects
+      </a>
+      <a
+        href="#blog"
+        onClick={[Function]}
+      >
+        Blog
+      </a>
+      <a
+        href="#contact"
+        onClick={[Function]}
+      >
+        Contact
+      </a>
+    </div>
+  </div>
+</div>
+`;

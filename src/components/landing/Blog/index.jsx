@@ -19,7 +19,13 @@ export const Blog = () => {
       <h2>Latest post</h2>
       <Grid>
         {articles.map(data => (
-          <Item key={data.id} as="a" href={data.url} target="_blank" rel="noopener noreferrer">
+          <Item
+            key={data.id}
+            as="a"
+            href={data.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Card>
               <Content>
                 <h3>{data.title}</h3>

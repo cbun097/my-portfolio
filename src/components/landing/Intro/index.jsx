@@ -13,7 +13,11 @@ export const Intro = () => (
         <h1>Hi There!</h1>
         <h4>I’m Claire and I’m a front-end developer & student!</h4>
         <Button purple>
-          <a href="https://www.linkedin.com/in/claire-bun-3678ba132/" rel="noopener noreferrer" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/claire-bun-3678ba132/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             View my resume
           </a>
         </Button>
@@ -22,7 +26,10 @@ export const Intro = () => (
         </Button>
       </Details>
       <Thumbnail>
-        <img src={dev} alt="I’m Claire and I’m a front-end developer & student!" />
+        <img
+          src={dev}
+          alt="I’m Claire and I’m a front-end developer & student!"
+        />
       </Thumbnail>
     </IntroWrapper>
   </Wrapper>
