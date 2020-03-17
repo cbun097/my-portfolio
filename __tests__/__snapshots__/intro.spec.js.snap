@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Intro Component renders correctly 1`] = `
+<div
+  className="sc-fzqBZW diFehN"
+>
+  <div
+    className="sc-fzpans hacvFS"
+  >
+    <div
+      className="sc-fzplWN hCvsbW"
+      onClick={[Function]}
+    />
+    <div
+      className="sc-AxjAm dOpVwC sc-Axmtr ijfsfV"
+    >
+      <a
+        aria-current="page"
+        className=""
+        href="/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        style={Object {}}
+      >
+        Claire Bun
+      </a>
+      <div
+        className="sc-AxheI kdPQrW"
+      >
+        <a
+          href="#about"
+          onClick={[Function]}
+        >
+          About
+        </a>
+        <a
+          href="#projects"
+          onClick={[Function]}
+        >
+          Projects
+        </a>
+        <a
+          href="#blog"
+          onClick={[Function]}
+        >
+          Blog
+        </a>
+        <a
+          href="#contact"
+          onClick={[Function]}
+        >
+          Contact
+        </a>
+      </div>
+    </div>
+    <div
+      className="sc-AxmLO kTyflp"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-fzozJi kVfXSm"
+      />
+      <div
+        className="sc-fzozJi kVfXSm"
+      />
+      <div
+        className="sc-fzozJi kVfXSm"
+      />
+    </div>
+    <div
+      className="sc-fzoLsD jiOLuR"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-AxheI cJfRhu"
+      >
+        <a
+          href="#about"
+          onClick={[Function]}
+        >
+          About
+        </a>
+        <a
+          href="#projects"
+          onClick={[Function]}
+        >
+          Projects
+        </a>
+        <a
+          href="#blog"
+          onClick={[Function]}
+        >
+          Blog
+        </a>
+        <a
+          href="#contact"
+          onClick={[Function]}
+        >
+          Contact
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-AxjAm dOpVwC sc-fzqNJr PzOZk"
+  >
+    <div
+      className="sc-fzoyAV jtxeRq"
+    >
+      <h1>
+        Hi There!
+      </h1>
+      <h4>
+        I’m Claire and I’m a front-end developer & student!
+      </h4>
+      <button
+        className="sc-AxirZ cyWyrQ"
+      >
+        <a
+          href="https://www.linkedin.com/in/claire-bun-3678ba132/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          View my resume
+        </a>
+      </button>
+      <a
+        className="sc-AxirZ ewUoIv"
+        href="#contact"
+        onClick={[Function]}
+      >
+        Hire me
+      </a>
+    </div>
+    <div
+      className="sc-fzoLag boaARM"
+    >
+      <img
+        alt="I’m Claire and I’m a front-end developer & student!"
+        src="test-file-stub"
+      />
+    </div>
+  </div>
+</div>
+`;

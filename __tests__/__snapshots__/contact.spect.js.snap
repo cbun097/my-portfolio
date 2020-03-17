@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Component renders correctly 1`] = `
+<div
+  className="sc-AxjAm dOpVwC sc-fznWqX kcfyoO"
+  id="contact"
+>
+  <div
+    className="sc-fzoiQi iTmpjd"
+  >
+    <h2>
+      Contact me
+    </h2>
+    <h4>
+      You can contact directly via my 
+      <a
+        href="mailto: cbun.dev@gmail.ca"
+      >
+        email
+      </a>
+      .
+    </h4>
+    <form
+      action="#"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+      data-netlify-recaptcha="true"
+      method="post"
+      name="portfolio-dev"
+      onReset={[Function]}
+      onSubmit={[Function]}
+    >
+      <div
+        className="sc-fzoNJl hVULWZ"
+      >
+        <input
+          aria-label="name"
+          className="sc-AxhCb kWqXMI"
+          name="name"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Full name*"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="sc-fzoNJl hVULWZ"
+      >
+        <input
+          aria-label="email"
+          className="sc-AxhCb kWqXMI"
+          id="email"
+          name="email"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Email*"
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        className="sc-fzoNJl hVULWZ"
+      >
+        <textarea
+          aria-label="message"
+          className="sc-AxhCb kWqXMI"
+          id="message"
+          name="message"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Message*"
+          rows="8"
+          type="text"
+          value=""
+        />
+      </div>
+      
+      <div
+        className="sc-fzoyTs jlJFZi"
+      >
+        <button
+          className="sc-AxirZ bfQsKS"
+          disabled={false}
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+  <div
+    className="sc-fzqARJ eqA-dWG"
+  >
+    <img
+      alt="I’m Claire and I’m a Frontend developer and student!"
+      src="test-file-stub"
+    />
+  </div>
+</div>
+`;
