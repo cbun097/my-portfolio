@@ -2,11 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/60975f4b-abeb-4d92-9f6a-3efde408f63d/deploy-status)](https://app.netlify.com/sites/cbun097/deploys)[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4f3f26b659324c65a73301ae75d1e5fc)](https://www.codacy.com/manual/cbun097/my-portfolio?utm_source=github.com&utm_medium=referral&utm_content=cbun097/my-portfolio&utm_campaign=Badge_Grade)
 
-This is my portfolio. Most of the credits for the template goes to [Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio). I highly recommande to check his profile for front-end projects.
-
-## Theme
-
-[Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio)
+This is my portfolio. Most of the credits for the template goes to [Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio). I highly recommended to check his profile for front-end projects.
 
 ## Features
 
@@ -23,6 +19,7 @@ This is my portfolio. Most of the credits for the template goes to [Gatsby-theme
 - Can be deployed with one click
 - Functional components with ~~Recompose~~ React Hooks! ~~ready to migrate to React hooks!~~
 - Fetches your Github pinned projects with most stars (You could customize this if you wish)
+- Fetches articles from [Dev.to](https://dev.to/)
 
 ## Design
 
@@ -43,7 +40,8 @@ Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfo
 │   │   │── common            # Common components
 │   │   │── landing           # Components used on the landing page
 │   │   └── theme             # Header & Footer
-│   └── pages               # Pages
+│   └── pages                   # Pages
+|   └── locales                   # locales translations
 └── static                  # favicon & Netlify redirects
 ```
 
@@ -63,10 +61,15 @@ Don't forget to edit your site's data on `data/config.js` file with your Google 
 
 When deploying on Netlify, you will have to set the private key as well
 
+Get your API Token for Dev.to [here](https://docs.dev.to/api/#section/Authentication)
+
 ```bash
 SITE_RECAPTCHA_KEY=xxxxx
 
 SITE_RECAPTCHA_SECRET=xxxxx
+
+DEVTO_TOKEN = xxxxx
+
 ```
 
 I highly recommend you check this [repository](https://github.com/imorente/gatsby-netlify-form-example) for more details about the Google Recaptcha and Netlify forms
@@ -107,5 +110,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contributors
 
+- [Claire Bun](https://github.com/cbun097)
 - [Ajay NS](https://github.com/ajayns) https://github.com/smakosh/gatsby-portfolio-dev/pull/3
 - [Ryan Lee](https://github.com/drdgvhbh) https://github.com/smakosh/gatsby-portfolio-dev/pull/6
