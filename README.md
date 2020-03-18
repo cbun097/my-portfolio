@@ -6,7 +6,7 @@ This is my portfolio. Most of the credits for the template goes to [Gatsby-theme
 
 ## Features
 
-- Eslint/Prettier configured
+- Eslint/Prettier/Jest configured
 - Scores 100% on a11y / Performance / PWA / SEO
 - PWA (desktop & mobile)
 - Easy to customize
@@ -21,9 +21,6 @@ This is my portfolio. Most of the credits for the template goes to [Gatsby-theme
 - Fetches your Github pinned projects with most stars (You could customize this if you wish)
 - Fetches articles from [Dev.to](https://dev.to/)
 
-## Design
-
-Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfolio-for-developers)
 
 ## Structure
 
@@ -40,8 +37,8 @@ Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfo
 │   │   │── common            # Common components
 │   │   │── landing           # Components used on the landing page
 │   │   └── theme             # Header & Footer
-│   └── pages                   # Pages
-|   └── locales                   # locales translations
+│   └── pages                 # Pages
+|   └── locales               # locales translations
 └── static                  # favicon & Netlify redirects
 ```
 
@@ -87,22 +84,6 @@ yarn
 ```bash
 yarn start
 ```
-
-### Clean the cache
-
-This removes the `.cache/` & `public/` folders
-
-```bash
-yarn reset
-```
-
-## Built with
-
-- Adobe XD
-- Gatsby
-- React & GraphQL
-- VSCode
-- And these useful of JavaScript libraries & Gatsby plugins [package.json](package.json)
 
 ## License
 
