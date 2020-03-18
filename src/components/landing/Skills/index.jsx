@@ -8,13 +8,17 @@ export const Skills = () => (
   <Wrapper id="about">
     <SkillsWrapper as={Container}>
       <Thumbnail>
-        <img src={dev} alt="I’m Claire and I’m a Frontend developer and student!" />
+        <img
+          src={dev}
+          alt="I’m Claire and I’m a Frontend developer and student!"
+        />
       </Thumbnail>
       <Details>
         <h1>Hi There!</h1>
         <p>
-          My name is Claire Bun. I am a DEC (Quebec's diploma of college studies) in Information Technology. Currently,
-          I am an undergraduate in Computer Science. I have mostly experience in Angular and ReactJs.
+          My name is Claire Bun. I am a DEC (Quebec's diploma of college
+          studies) in Information Technology. Currently, I am an undergraduate
+          in Computer Science. I have mostly experience in Angular and ReactJs.
         </p>
         <Button as={AnchorLink} href="#contact">
           Hire me

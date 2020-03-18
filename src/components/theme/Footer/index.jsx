@@ -14,14 +14,24 @@ export const Footer = () => (
             💖
           </span>{' '}
           by{' '}
-          <a href="https://smakosh.com/?ref=portfolio-dev" rel="noopener noreferrer" target="_blank">
+          <a
+            href="https://smakosh.com/?ref=portfolio-dev"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             Smakosh
           </a>
         </span>
       </Details>
       <Links>
         {social.map(({ id, name, link, icon }) => (
-          <a key={id} href={link} target="_blank" rel="noopener noreferrer" aria-label={`follow me on ${name}`}>
+          <a
+            key={id}
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`follow me on ${name}`}
+          >
             <img width="24" src={icon} alt={name} />
           </a>
         ))}

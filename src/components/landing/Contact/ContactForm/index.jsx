@@ -6,7 +6,13 @@ import { Button, Input } from 'components/common'
 import { recaptcha_key } from 'data/config'
 import { Error, Center, InputField } from './styles'
 
-const ContactForm = ({ setFieldValue, isSubmitting, values, errors, touched }) => (
+const ContactForm = ({
+  setFieldValue,
+  isSubmitting,
+  values,
+  errors,
+  touched,
+}) => (
   <Form
     name="portfolio-dev"
     method="post"
@@ -67,7 +73,10 @@ const ContactForm = ({ setFieldValue, isSubmitting, values, errors, touched }) =
     {values.success && (
       <InputField>
         <Center>
-          <h4>Your message has been successfully sent, I will get back to you ASAP!</h4>
+          <h4>
+            Your message has been successfully sent, I will get back to you
+            ASAP!
+          </h4>
         </Center>
       </InputField>
     )}
@@ -96,11 +105,16 @@ export default withFormik({
       message: Yup.string().required('Message field is required'),
       recaptcha: Yup.string().required('Robots are not welcome yet!'),
     }),
-  handleSubmit: async ({ name, email, message, recaptcha }, { setSubmitting, resetForm, setFieldValue }) => {
+  handleSubmit: async (
+    { name, email, message, recaptcha },
+    { setSubmitting, resetForm, setFieldValue }
+  ) => {
     try {
       const encode = data => {
         return Object.keys(data)
-          .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
+          .map(
+            key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+          )
           .join('&')
       }
       await fetch('/?no-cache=1', {

@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component renders correctly 1`] = `
+<div
+  className="sc-fznyAO dkgGhB"
+>
+  <div
+    className="sc-Axmtr irmYez sc-fznKkj cNTHwD"
+  >
+    <div
+      className="sc-fzokOt hKbVUM"
+    >
+      <h2>
+        Claire Bun
+      </h2>
+      <span>
+        © All rights are reserved | 
+        2020
+         | Made with
+         
+        <span
+          aria-label="love"
+          role="img"
+        >
+          💖
+        </span>
+         
+        by
+         
+        <a
+          href="https://smakosh.com/?ref=portfolio-dev"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Smakosh
+        </a>
+      </span>
+    </div>
+    <div
+      className="sc-fznZeY fEioGA"
+    >
+      <a
+        aria-label="follow me on Telegram"
+        href="https://t.me/cbun097"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Telegram"
+          src="/icons/telegram.svg"
+          width="24"
+        />
+      </a>
+      <a
+        aria-label="follow me on Github"
+        href="https://github.com/cbun097"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Github"
+          src="/icons/github.svg"
+          width="24"
+        />
+      </a>
+      <a
+        aria-label="follow me on Twitter"
+        href="https://twitter.com/cbun097"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Twitter"
+          src="/icons/twitter.svg"
+          width="24"
+        />
+      </a>
+      <a
+        aria-label="follow me on YouTube"
+        href="https://www.youtube.com/theClairebmusic"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="YouTube"
+          src="/icons/youtube.svg"
+          width="24"
+        />
+      </a>
+      <a
+        aria-label="follow me on Linkedin"
+        href="https://www.linkedin.com/in/claire-bun-3678ba132/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Linkedin"
+          src="/icons/linkedin.svg"
+          width="24"
+        />
+      </a>
+      <a
+        aria-label="follow me on Instagram"
+        href="https://www.instagram.com/cbun097/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Instagram"
+          src="/icons/instagram.svg"
+          width="24"
+        />
+      </a>
+      <a
+        aria-label="follow me on Dev.to"
+        href="https://dev.to/cbun097"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Dev.to"
+          src="/icons/dev-brands.svg"
+          width="24"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;
