@@ -22,23 +22,19 @@ jobs:
       - name: Install
         env:
           SHA: ${{ github.sha }}
-        working-directory: .
         run: yarn install
 
       - name: Build
         env:
           SHA: ${{ github.sha }}
-        working-directory: frontend
         run: yarn build --if-present
 
       - name: Linting
         env:
           SHA: ${{ github.sha }}g
-        working-directory: .
         run: yarn lint
 
       - name: Format
         env:
           SHA: ${{ github.sha }}
-        working-directory: .
         run: yarn format:fix
