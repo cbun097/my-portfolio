@@ -24,15 +24,15 @@ jobs:
           SHA: ${{ github.sha }}
         run: yarn install
 
-      # - name: Build
-      #   env:
-      #     SHA: ${{ github.sha }}
-      #   run: yarn build --if-present
-
       - name: Linting
         env:
-          SHA: ${{ github.sha }}g
+          SHA: ${{ github.sha }}
         run: yarn lint
+
+      - name: Unit Testing
+        env:
+          SHA: ${{ github.sha }}
+        run: yarn test
 
       - name: Format
         env:
