@@ -14,7 +14,8 @@ This is my portfolio. Most of the credits for the template goes to [Gatsby-theme
 - Amazing illustrations by [Undraw.co](https://undraw.co)
 - Amazing icons by [Font Awesome](https://fontawesome.com/)
 - Tablet & mobile friendly
-- Continuous deployment with [Netlify](https://netlify.com)
+- Continuous deployment with [Vercel](https://vercel.com/?utm_source=smakosh)
+- Or with Netlify, check [Netlify branch](https://github.com/smakosh/gatsby-portfolio-dev/tree/netlify)
 - A contact form protected by Google Recaptcha
 - Can be deployed with one click
 - Functional components with ~~Recompose~~ React Hooks! ~~ready to migrate to React hooks!~~
@@ -44,19 +45,20 @@ This is my portfolio. Most of the credits for the template goes to [Gatsby-theme
 
 ## Prerequisites
 
-[Yarn](https://yarnpkg.com/en/)
+### Online
 
-Please create a new file `.env.development` and put this env variable with your GitHub token
+1. Create an account at [Formik](https://formik.com/?utm_source=smakosh) and grab your form endpoint url
+2. Grab a Google recaptcha key from [Google Recaptcha](https://www.google.com/recaptcha/admin)
+3. Grab your Github token from [GitHub](https://github.com/settings/tokens/new?scopes=repo&description=portfolio-dev)
+4. Click [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/settings?s=https%3A%2F%2Fgithub.com%2Fsmakosh%2Fgatsby-portfolio-dev&c=1&env=GATSBY_PORTFOLIO_GITHUB_TOKEN%2CGATSBY_PORTFOLIO_FORMIK_ENDPOINT%2CGATSBY_PORTFOLIO_RECAPTCHA_KEY&envDescription=Required%20to%20fetch%20your%20repositories%20from%20GitHub&envLink=https://github.com/smakosh/gatsby-portfolio-dev&framework=nextjs) and pass in your:
+  
+  - Formik form endpoint
+  - Google recaptcha public key
+  - Github token
 
-> If you're building locally, you will have to create a new file `.env.production` and put the same env variable
+To Env variables section.
 
-```bash
-GITHUB_TOKEN=xxxxxxxxxx
-```
-
-Don't forget to edit your site's data on `data/config.js` file with your Google Recaptcha public key
-
-When deploying on Netlify, you will have to set the private key as well
+### Locally
 
 Get your API Token for Dev.to [here](https://docs.dev.to/api/#section/Authentication)
 
@@ -69,25 +71,15 @@ DEVTO_TOKEN = xxxxx
 
 ```
 
-I highly recommend you check this [repository](https://github.com/imorente/gatsby-netlify-form-example) for more details about the Google Recaptcha and Netlify forms
+> You could run `vercel env pull` to get your env variables from Vercel.
 
-## Installing
+### Deploying locally to Vercel
 
-Installing the dependencies
-
-```bash
-yarn
-```
-
-## Start the dev server
-
-```bash
-yarn start
-```
+I highly recommend that you push to GitHub/GitLab and deploy your repository to Vercel instead or just hit the Deploy button.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more details
 
 ## Contributors
 

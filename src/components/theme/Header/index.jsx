@@ -6,6 +6,7 @@ import { Wrapper, Overlay } from './styles'
 
 export const Header = () => {
   const [sidebar, toggle] = useState(false)
+
   return (
     <Wrapper>
       <Overlay sidebar={sidebar} onClick={() => toggle(!sidebar)} />

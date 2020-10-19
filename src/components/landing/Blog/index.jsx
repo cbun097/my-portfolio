@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
+import { ThemeContext } from 'providers/ThemeProvider'
 import { Container, Card, Tag, Item } from 'components/common'
 import Moment from 'moment'
 import { Wrapper, Grid, Content } from './styles'
 
 export const Blog = () => {
+  const { theme } = useContext(ThemeContext)
   const [articles, setArticles] = useState([])
 
   useEffect(() => {
@@ -19,14 +21,8 @@ export const Blog = () => {
       <h2>Latest post</h2>
       <Grid>
         {articles.map(data => (
-          <Item
-            key={data.id}
-            as="a"
-            href={data.url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Card>
+          <Item key={data.id} as="a" href={data.url} target="_blank" rel="noopener noreferrer">
+            <Card theme={theme}>
               <Content>
                 <h3>{data.title}</h3>
                 <div>

@@ -1,18 +1,12 @@
 import React from 'react'
-import { Form, withFormik, FastField, ErrorMessage } from 'formik'
+import axios from 'axios'
+import { withFormik, Form, FastField, ErrorMessage } from 'formik'
 import Recaptcha from 'react-google-recaptcha'
 import * as Yup from 'yup'
 import { Button, Input } from 'components/common'
-import { recaptcha_key } from 'data/config'
 import { Error, Center, InputField } from './styles'
 
-const ContactForm = ({
-  setFieldValue,
-  isSubmitting,
-  values,
-  errors,
-  touched,
-}) => (
+const ContactForm = ({ setFieldValue, isSubmitting, values, errors, touched }) => (
   <Form
     name="portfolio-dev"
     method="post"
@@ -73,10 +67,7 @@ const ContactForm = ({
     {values.success && (
       <InputField>
         <Center>
-          <h4>
-            Your message has been successfully sent, I will get back to you
-            ASAP!
-          </h4>
+          <h4>Your message has been successfully sent, I will get back to you ASAP!</h4>
         </Center>
       </InputField>
     )}
@@ -105,18 +96,12 @@ export default withFormik({
       message: Yup.string().required('Message field is required'),
       recaptcha: Yup.string().required('Robots are not welcome yet!'),
     }),
-  handleSubmit: async (
-    { name, email, message, recaptcha },
-    { setSubmitting, resetForm, setFieldValue }
-  ) => {
+  handleSubmit: async ({ name, email, message, recaptcha }, { setSubmitting, resetForm, setFieldValue }) => {
     try {
-      const encode = data => {
-        return Object.keys(data)
-          .map(
-            key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
-          )
+      const encode = data =>
+        Object.keys(data)
+          .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
           .join('&')
-      }
       await fetch('/?no-cache=1', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },

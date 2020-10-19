@@ -1,20 +1,25 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import { Container, Card } from 'components/common'
-import starIcon from 'assets/icons/star.svg'
-import forkIcon from 'assets/icons/fork.svg'
-import { Wrapper, Grid, Item, Content, Stats } from './styles'
+import { ThemeContext } from 'providers/ThemeProvider'
+import { Container, Card, TitleWrap } from 'components/common'
+import Star from 'components/common/Icons/Star'
+import Fork from 'components/common/Icons/Fork'
+import { Wrapper, Grid, Item, Content, Stats, Languages } from './styles'
 
 export const Projects = () => {
-  const data = useStaticQuery(
+  const { theme } = useContext(ThemeContext)
+  const {
+    github: {
+      viewer: {
+        repositories: { edges },
+      },
+    },
+  } = useStaticQuery(
     graphql`
-      query fetchGithubProject {
+      {
         github {
           viewer {
-            repositories(
-              first: 8
-              orderBy: { field: STARGAZERS, direction: DESC }
-            ) {
+            repositories(first: 8, orderBy: { field: STARGAZERS, direction: DESC }) {
               edges {
                 node {
                   id
@@ -25,6 +30,12 @@ export const Projects = () => {
                     totalCount
                   }
                   forkCount
+                  languages(first: 3) {
+                    nodes {
+                      id
+                      name
+                    }
+                  }
                 }
               }
             }
@@ -37,29 +48,32 @@ export const Projects = () => {
     <Wrapper as={Container} id="projects">
       <h2>Projects</h2>
       <Grid>
-        {data.github.viewer.repositories.edges.map(({ node }) => (
-          <Item
-            key={node.id}
-            as="a"
-            href={node.url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Card>
+        {edges.map(({ node }) => (
+          <Item key={node.id} as="a" href={node.url} target="_blank" rel="noopener noreferrer" theme={theme}>
+            <Card theme={theme}>
               <Content>
                 <h4>{node.name}</h4>
                 <p>{node.description}</p>
               </Content>
-              <Stats>
-                <div>
-                  <img src={starIcon} alt="stars" />
-                  <span>{node.stargazers.totalCount}</span>
-                </div>
-                <div>
-                  <img src={forkIcon} alt="forks" />
-                  <span>{node.forkCount}</span>
-                </div>
-              </Stats>
+              <TitleWrap>
+                <Stats theme={theme}>
+                  <div>
+                    <Star color={theme === 'light' ? '#000' : '#fff'} />
+                    <span>{node.stargazers.totalCount}</span>
+                  </div>
+                  <div>
+                    <Fork color={theme === 'light' ? '#000' : '#fff'} />
+                    <span>{node.forkCount}</span>
+                  </div>
+                </Stats>
+                <Stats theme={theme}>
+                  <Languages>
+                    {node.languages.nodes.map(({ id, name }) => (
+                      <span key={id}>{name}</span>
+                    ))}
+                  </Languages>
+                </Stats>
+              </TitleWrap>
             </Card>
           </Item>
         ))}

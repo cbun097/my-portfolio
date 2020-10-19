@@ -9,16 +9,12 @@ export const Contact = () => (
     <Details>
       <h2>Contact me</h2>
       <h4>
-        You can contact directly via my{' '}
-        <a href="mailto: cbun.dev@gmail.ca">email</a>.
+        You can contact directly via my <a href="mailto: cbun.dev@gmail.ca">email</a>.
       </h4>
       <ContactForm />
     </Details>
     <Thumbnail>
-      <img
-        src={contact}
-        alt="I’m Claire and I’m a Frontend developer and student!"
-      />
+      <img src={contact} alt="I’m Claire and I’m a Frontend developer and student!" />
     </Thumbnail>
   </Wrapper>
 )
